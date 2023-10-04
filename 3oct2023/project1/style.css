@@ -1,54 +1,26 @@
-.main{
-    margin-bottom: 10px;
+body{
+    margin: 0;
+    padding: 0;
 }
-.container {
-   
+.main-page{
     position: relative;
-    text-align: center;
-    color: white
+    display: flex;
 }
 .image{
-    height: 700px;
-    width: 100%;
+    height: 46em;
+    width: 100%;   
 }
-.h2{
+.headings{
     position: absolute;
-    top: 244px;
-    left: 364px;
-    font-size: 20px;
-    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
-    text-align: center;
-} 
-.hi{
-    font-size: 60px;
+
 }
-.h1{
-    position: absolute;
-    top: 286px;
-    left: 360px;
-    font-size: 44px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+.Hi{
+    font-size: 100px;
 }
-.blackbox{
-    background-color: #000;
-    font-size: 80px;
-    margin-top: -98px;
-    color: white;
-}
-.you{
-    font-size: 110px;
-    
-}
-.card1{
-    max-width:340px;
-    height: 400px;
-    width: 
-    border-radius: ;
-    box-shadow: ;
-    padding: ;
-}
-.card1content{
-    padding: 20px;
+h1{
+    font-size: 50px;
 }
