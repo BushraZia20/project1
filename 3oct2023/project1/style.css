@@ -1,26 +1,78 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.main-page{
+
+.main-page {
     position: relative;
     display: flex;
-}
-.image{
-    height: 46em;
-    width: 100%;   
-}
-.headings{
-    position: absolute;
-    display: flex;
-    align-items: center;
     justify-content: center;
+
+}
+
+.image {
+    height: 46em;
+    width: 100%;
+}
+
+.headings {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+
+
+
     font-family: 'Lato', sans-serif;
 
 }
-.Hi{
+
+.Hi {
     font-size: 100px;
 }
-h1{
-    font-size: 50px;
+
+h1 {
+    font-size: 66px;
+    margin-top: -19px;
+}
+
+.second-page {
+    height: 46em;
+    width: 100%;
+}
+
+.blackbox {
+    background-color: #000;
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+}
+
+.you {
+    font-size: 96px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: -7em;
+}
+
+.cardcontent {
+    max-width: 272px;
+    height: 288px;
+    margin: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 43px;
+    background-color: #e24646;
+    text-align: center;
+}
+.Web{
+   flex-direction: row;
+}
+.content {
+    flex-direction: row;
 }
