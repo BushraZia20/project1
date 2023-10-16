@@ -1,0 +1,90 @@
+.bodyy {
+    background-color: rgb(92, 190, 190);
+    margin: 0;
+    padding: 5em;
+    height: 35em;
+    max-width: 100%;
+    border: none;
+}
+
+.the-page {
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    padding-left: 5em;
+    margin: -7px;
+    padding-right: 5em;
+    padding-bottom: 5em;
+    background-color: white;
+    border: none;
+    border-radius: 1em;
+}
+
+.devkit {
+    display: flex;
+    gap: 48em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(94, 104, 215);
+}
+
+.flex {
+    display: flex;
+    gap: 6em;
+    font-size: 11px;
+    color: gray;
+}
+
+.welcome {
+    display: flex;
+    gap: 10em;
+}
+
+.flex-items {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#welcome {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 35px;
+    margin-bottom: 0.1em;
+}
+
+#develop {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 35px;
+    margin-top: 0.1em;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.view {
+    display: flex;
+    align-items: center;
+    background-color: #362FD9;
+    font-size: 15px;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+}
+
+.doc {
+    display: flex;
+    height: 32px;
+    align-items: center;
+    background-color: #c1c0d5;
+    font-size: 15px;
+    color: #425363;
+    border: none;
+    border-radius: 3px;
+}
+
+.image {
+    height: 20em;
+    width: 48em;
+}

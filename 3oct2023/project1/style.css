@@ -45,34 +45,73 @@ h1 {
     font-size: 80px;
     font-weight: 400;
     color: white;
+    text-align: center;
+}
+
+.h3 {
+    font-weight: 400;
 }
 
 .you {
     font-size: 96px;
+    font-weight: 700;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 80mm 80mm 80mm;
+    column-gap: 0px;
+    margin-top: -6em;
+    margin-left: 2em;
     justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-top: -7em;
 }
 
-.cardcontent {
-    max-width: 272px;
-    height: 288px;
-    margin: 60px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 43px;
-    background-color: #e24646;
-    text-align: center;
+.grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 0;
+    border-radius: 30px;
+    box-shadow: 8px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    background-color: wheat;
 }
-.Web{
-   flex-direction: row;
+
+.img {
+    height: 150px;
+    width: 262px;
+    border-radius: 30px 30px 0px 0px;
+
 }
-.content {
-    flex-direction: row;
+
+.grid-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bottom-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    height: 203px;
+}
+
+.about-me {
+    background-color: coral;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contact-me {
+    background-color: cadetblue;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+    border-radius: 10px 10px 0px 0px;
 }
